@@ -3,7 +3,7 @@ This repo contains my web development practise projects
 --------
 Projects
 -------
-.Code fixing game:work in progress
+.Code fixing game: Work in progress
 
 .Sign in page
 
