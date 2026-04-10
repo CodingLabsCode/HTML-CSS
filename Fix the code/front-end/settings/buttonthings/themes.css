@@ -1,0 +1,80 @@
+body {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+    background: linear-gradient(to bottom right , #403F44, #1e1b32);
+    color: white;
+    height: 100vh;
+    gap: 40px;
+}
+.main-box {
+    height: 350px;
+    width: 450px;
+    padding:6px;
+    border-radius: 25px;
+    box-shadow: 0 0 6px rgb(0, 0, 0);
+    border:  1px solid black;
+}
+.navbar {
+    display: flex;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(20, 20, 20);
+    font-family: cursive;
+    width: 600px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: all 0.2s ease;
+    height: 40px;
+}
+
+.navbar:hover {
+    box-shadow: 0 0 5px #33CCFC;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 0.2s ease;
+    width: 100%;
+    
+}
+
+.navs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.navs:hover {
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+#ind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
